@@ -1,6 +1,9 @@
 # Presenting Paramedic Prep-pro.
 
 Welcome to Paramedic Prep-pro
+------------------------------------------
+![project_logo](https://github.com/Wanjiruwanjiku-tech/Paramedic_Prep-pro-app/blob/main/src/Assets/images/logo.jpg?raw=true)
+-----------------------------------------
 
 ## Table of Contents
 
