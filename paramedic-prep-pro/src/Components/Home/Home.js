@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../../Assets/styles/styles.css';
 import clock from '../../Assets/images/clock.png';
 import hero1 from '../../Assets/images/hero1.jpg';
@@ -9,17 +10,22 @@ import student2 from '../../Assets/images/student2.jpg';
 import mentor1 from '../../Assets/images/mentor1.jpg';
 import logo from '../../Assets/images/logo4.jpg';
 import logo2 from '../../Assets/images/logo.jpg';
+import logo3 from '../../Assets/images/logo3.jpg';
 
 
 
 const Home = () => {
+    const navigate = useNavigate()
+    const handleStartLearning = () => {
+        navigate('/topics')
+    }
 
     return (
         <>
            <div className='hero-section'>
                     <div className='hero-text'>
                         <h1><span className='highlight'>Prep</span> on your Schedule. <img src={clock} alt='clock' width={20} id='clock' /></h1>
-                        <button className='get-started-button'>Start Learning</button>
+                        <button className='get-started-button' onClick={handleStartLearning}>Start Learning</button>
                     </div>
             </div>
                     <div className='web-intro'>
@@ -58,16 +64,16 @@ const Home = () => {
                                 each book is packed with practical insights, step-by-step guides, 
                                 and the latest medical standards to ensure you’re always prepared when it matters most.
                             </p>
-                            <h4 className='h4-center'>Start your journey to becoming a Paramedic-Pro get your copy <br/>Today!</h4>
+                            <h4  className='resources-header'>Start your journey to becoming a Paramedic-Pro.<br/>Get your copy!</h4>
                             <div className='books-grid'>
-                                <div className='each-book'> <img src={logo} alt='logo' width={250}/><h5>Critical Care Book One</h5>
-                                    <button>Get Book</button>
+                                <div className='each-book'> <img src={logo} alt='logo' width={250}/><h5>Critical Care Book I</h5>
+                                    <button className='search-button'>Get Book</button>
                                 </div>
-                                <div className='each-book'> <img src={logo2} alt='logo' width={250}/><h5>Critical Care Book One</h5>
-                                    <button>Get Book</button>
+                                <div className='each-book'> <img src={logo2} alt='logo' width={250}/><h5>Critical Care Book II</h5>
+                                    <button className='search-button'>Get Book</button>
                                 </div>
-                            <div className='each-book'> <img src={logo} alt='logo' width={250} /><h5>Critical Care Book One</h5>
-                                    <button>Get Book</button>
+                            <div className='each-book'> <img src={logo} alt='logo' width={250} /><h5>Critical Advanced Airway Management</h5>
+                                    <button className='search-button'>Get Book</button>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +87,8 @@ const Home = () => {
                                 <img src={hero3} alt='mentor5' />
                         </div>
                     </div>
-            <div className='tagline-2'><h3>WE HELP ACHIEVE THE <span className='highlight'>BIGGEST</span> GOALS</h3></div>
+                    <div className='logo'><img src={logo3} alt='' /></div>
+                    <div className='tagline-2'><h3>WE HELP ACHIEVE THE <span className='highlight'>BIGGEST</span> GOALS</h3></div>
         </>
     )
 };
