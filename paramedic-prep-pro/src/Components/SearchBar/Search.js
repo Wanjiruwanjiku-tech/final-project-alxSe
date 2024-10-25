@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Search = () => {
   // Sample data for search
   const data = [
-    { id: 1, name: 'Cardiac Emergency' },
-    { id: 2, name: 'Fracture Management' },
-    { id: 3, name: 'Burns' },
-    { id: 4, name: 'Diabetic Emergency' },
-    { id: 5, name: 'Shock Management' }
+    { id: 1, name: 'Cardiac Emergency', link: '/cardiac'},
+    { id: 2, name: 'Fracture Management', link: '/fractures'},
+    { id: 3, name: 'Burns', link: './burns' },
+    { id: 4, name: 'Diabetic Emergency', link: '/diabetic-emergencies' },
+    { id: 5, name: 'Shock Management', link: '/bleeding-and-shock' }
   ];
 
   // State to store search input and filtered results
@@ -44,7 +45,7 @@ const Search = () => {
         <ul>
           {filteredData.length > 0 ? (
             filteredData.map(item => (
-              <li key={item.id}>{item.name}</li>
+              <li key={item.id} ><Link to={item.link}>{item.name}</Link></li>
             ))
           ) : (
             <li>No results found</li>

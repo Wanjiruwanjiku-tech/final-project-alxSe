@@ -87,8 +87,8 @@ const Home = () => {
                                 <img src={hero3} alt='mentor5' />
                         </div>
                     </div>
-                    <div className='logo'><img src={logo3} alt='' /></div>
-                    <div className='tagline-2'><h3>WE HELP ACHIEVE THE <span className='highlight'>BIGGEST</span> GOALS</h3></div>
+                    {/* <div className='logo'><img src={logo3} alt='' /></div>
+                    <div className='tagline-2'><h3>WE HELP ACHIEVE THE <span className='highlight'>BIGGEST</span> GOALS</h3></div> */}
         </>
     )
 };

@@ -73,7 +73,7 @@ const Topics = () => {
                 navigate('/airway-management');
                 break;
             case 'Cardiac Emergencies':
-                navigate('/cardiac-emergencies');
+                navigate('/cardiac');
                 break;
             case 'Fractures':
                 navigate('/fractures');

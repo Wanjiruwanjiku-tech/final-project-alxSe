@@ -42,9 +42,9 @@ const AboutUs = () => {
                     and foccussed to <span className='highlight'>Prep</span> with
                     You.
                 </p>
-                <div className='logo'><img src={logo3} alt='' /></div>
+                {/* <div className='logo'><img src={logo3} alt='' /></div> */}
             </div>
-            <div className='tagline-2'><h3>WE HELP ACHIEVE THE <span className='highlight'>BIGGEST</span> GOALS</h3></div>
+            {/* <div className='tagline-2'><h3>WE HELP ACHIEVE THE <span className='highlight'>BIGGEST</span> GOALS</h3></div> */}
         </>
     )
 }
