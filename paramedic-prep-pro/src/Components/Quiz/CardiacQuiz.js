@@ -1,6 +1,5 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import explaoiner5 from '../../Assets/images/explainere.jpg';
 import explaoiner6 from '../../Assets/images/explainerf.jpg';
 import explaoiner7 from '../../Assets/images/explainerg.jpg';

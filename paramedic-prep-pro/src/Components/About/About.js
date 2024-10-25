@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../Assets/images/logo.jpg';
-import logo3 from '../../Assets/images/logo3.jpg';
+// import logo3 from '../../Assets/images/logo3.jpg';
 import '../../Assets/styles/styles.css';
 import team1 from '../../Assets/images/team1.jpg';
 import team2 from '../../Assets/images/team2.jpg';

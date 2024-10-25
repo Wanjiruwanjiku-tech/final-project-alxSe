@@ -10,8 +10,6 @@ import student2 from '../../Assets/images/student2.jpg';
 import mentor1 from '../../Assets/images/mentor1.jpg';
 import logo from '../../Assets/images/logo4.jpg';
 import logo2 from '../../Assets/images/logo.jpg';
-import logo3 from '../../Assets/images/logo3.jpg';
-
 
 
 const Home = () => {
