@@ -13,7 +13,7 @@ const Login = () => {
        e.preventDefault();
        
        if (username && password) {
-        navigate('/emergencylist');
+        navigate('/topics');
        } else {
         alert('Please enter valid credentials');
        }

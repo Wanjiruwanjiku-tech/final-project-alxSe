@@ -281,17 +281,20 @@ const CardiacQuiz = () => {
 
       if (quizComplete) {
         return (
+            <>
                 <div className="each-pt-quizs">
                     <h1>Quiz Complete!</h1>
                     <img src={explaoiner5} alt="Quiz complete" />
                     <h2>Your score is: {score} out of {ptQuestions.length}</h2>
                     <p>The page will refresh automatically in 5 seconds.</p>
                 </div>
+            </>
                 );
             };
 
             return (
                 <>
+                    <h1>Cardiac Emergencies Quiz</h1>
                     <div className="quiz-pt-container">
                         <div className="each-pt-quizs">
                             <h2>Question {currentQuestion + 1}</h2>

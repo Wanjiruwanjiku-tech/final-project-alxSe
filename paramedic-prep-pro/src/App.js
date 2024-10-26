@@ -12,6 +12,10 @@ import CardiacNextPage from './Components/Cardiac/CardiacSub';
 import Login from './Components/Login/Login';
 import Quiz from './Components/Quiz/QuizList';
 import CardiacQuiz from './Components/Quiz/CardiacQuiz';
+import BurnQuiz from './Components/Quiz/BurnQuiz';
+import DiabetesQuiz from './Components/Quiz/DiabetesQuiz';
+import PharmaQuiz from './Components/Quiz/PharmaQuiz';
+import PtQuiz from './Components/Quiz/PtAssQuiz';
 
 
 const App = () => {
@@ -28,6 +32,10 @@ const App = () => {
           <Route path='/quiz' element={<Quiz />}/>
           <Route path='/cardiac-quiz' element={<CardiacQuiz />}/>
           <Route path='/cardiac-next-page' element={<CardiacNextPage />}/>
+          <Route path='/burns-quiz' element={<BurnQuiz />}/>
+          <Route path='/diabetes-quiz' element={<DiabetesQuiz />}/>
+          <Route path='/genpharma-quiz' element={<PharmaQuiz />}/>
+          <Route path='/patient-quiz' element={<PtQuiz />}/>
           <Route path="*" element={<><h2>PAGE NOT FOUND</h2><h2>CAUSE...</h2><h1>I'm Slim Shady, yes I'm the real Shady, All you other slim Shadys are just immitating, SO won't the real Slim Shady please stand up!!</h1></>} />
         </Routes>
         <div>
