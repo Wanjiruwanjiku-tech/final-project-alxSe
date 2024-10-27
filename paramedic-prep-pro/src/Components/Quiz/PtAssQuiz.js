@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import explaoiner5 from '../../Assets/images/explainere.jpg';
 import explaoiner6 from '../../Assets/images/explainerf.jpg';
@@ -270,15 +270,6 @@ const PtQuiz = () => {
         }
       };
 
-      useEffect(() => {
-        if (quizComplete) {
-            const timer = setTimeout(() => {
-                window.location.reload(); // Refresh the page
-            }, 5000); // 5 seconds delay
-
-            return () => clearTimeout(timer); // Cleanup on component unmount
-        }
-    }, [quizComplete]);
 
       if (quizComplete) {
         return (
@@ -286,7 +277,8 @@ const PtQuiz = () => {
                     <h1>Quiz Complete!</h1>
                     <img src={explaoiner5} alt="Quiz complete" />
                     <h2>Your score is: {score} out of {ptQuestions.length}</h2>
-                    <p>The page will refresh automatically in 5 seconds.</p>
+                    <button className="loginbuttons">View Answers</button>
+                    <p>Refresh Page and Give it Another try :)</p>
                 </div>
                 );
             };

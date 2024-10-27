@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import explaoiner5 from '../../Assets/images/explainere.jpg';
 import explaoiner6 from '../../Assets/images/explainerf.jpg';
 import explaoiner7 from '../../Assets/images/explainerg.jpg';
@@ -257,6 +257,7 @@ const BurnQuiz = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
     const [quizComplete, setQuizComplete] = useState(false);
+    const [viewAnswers, setViewAnswers] = useState(false);
 
     const handleAnswer = (optionIndex) => {
         if (optionIndex === ptQuestions[currentQuestion].answer) {
@@ -269,24 +270,40 @@ const BurnQuiz = () => {
         }
       };
 
-      useEffect(() => {
-        if (quizComplete) {
-            const timer = setTimeout(() => {
-                window.location.reload(); // Refresh the page
-            }, 5000); // 5 seconds delay
+      
+    const handleViewAnswers = () => {
+        setViewAnswers(true);
+    };
 
-            return () => clearTimeout(timer); // Cleanup on component unmount
-        }
-    }, [quizComplete]);
+    if (quizComplete && viewAnswers) {
+        return (
+            <div className="each-pt-quizs">
+                <h1>Quiz Complete! Here are the answers:</h1>
+                <ul>
+                    {ptQuestions.map((question, index) => (
+                        <li key={index}>
+                            <h2>Question {index + 1}</h2>
+                            <p>{question.question}</p>
+                            <p><strong>Answer: </strong>{question.answer}</p>
+                            <img src={question.explainer} alt={`Explanation for ${index + 1}`} className="explainer" />
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        );
+    }
 
       if (quizComplete) {
         return (
+            <>
                 <div className="each-pt-quizs">
                     <h1>Quiz Complete!</h1>
                     <img src={explaoiner5} alt="Quiz complete" />
                     <h2>Your score is: {score} out of {ptQuestions.length}</h2>
-                    <p>The page will refresh automatically in 5 seconds.</p>
+                    <button className="loginbuttons" onclick={handleViewAnswers}>View Answers</button>
+                    <p>Refresh Page and Give it Another try :)</p>
                 </div>
+            </>
                 );
             };
 
