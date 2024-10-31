@@ -16,11 +16,14 @@ import BurnQuiz from './Components/Quiz/BurnQuiz';
 import DiabetesQuiz from './Components/Quiz/DiabetesQuiz';
 import PharmaQuiz from './Components/Quiz/PharmaQuiz';
 import PtQuiz from './Components/Quiz/PtAssQuiz';
+import Footer from './Components/Footer/Footer';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 
 const App = () => {
   return (
     <>
+      <ScrollToTop />
       <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -43,6 +46,7 @@ const App = () => {
         <div className='logo'><img src={logo3} alt='' /></div>
         <div className='tagline-2'><h3>WE HELP ACHIEVE THE <span className='highlight'>BIGGEST</span> GOALS</h3></div>
         </div>
+      <Footer />
     </>
   );
 };

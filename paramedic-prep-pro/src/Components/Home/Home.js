@@ -9,7 +9,11 @@ import team1 from '../../Assets/images/team1.jpg';
 import student2 from '../../Assets/images/student2.jpg';
 import mentor1 from '../../Assets/images/mentor1.jpg';
 import logo from '../../Assets/images/logo4.jpg';
+import review1 from '../../Assets/images/review1.png';
+import review2 from '../../Assets/images/review2.png';
+import review3 from '../../Assets/images/review3.png';
 import logo2 from '../../Assets/images/logo.jpg';
+import star from '../../Assets/images/staricon.png';
 
 
 const Home = () => {
@@ -76,6 +80,56 @@ const Home = () => {
                             </div>
                         </div>
                     </section>
+                    <section>
+                        <h1 className='resources-header'>App Reviews</h1>
+                        <p className='book-state'>See what others think about us!!</p>
+                        <div className='reviews'>
+                            <div className='review-img'>
+                                <img src={review1} alt='review' width={300} />
+                                <p>
+                                    "Paramedic Prep-Pro has transformed my learning experience. 
+                                    The interactive lessons and practical scenarios have made complex topics so much 
+                                    easier to understand. The community support is 
+                                    incredible too—knowing I'm not alone in this journey has been a huge boost to 
+                                    my confidence. Can't recommend it enough!"
+                                </p>
+                                <img src={star} alt='star' width={40}/>
+                                <img src={star} alt='star' width={40}/>
+                                <img src={star} alt='star' width={40}/>
+                                <blockquote>Christopher Kimani</blockquote>
+                            </div>
+                            <div className='review-img'>
+                                <img src={review2} alt='review' width={350} />
+                                <p>
+                                "As a student juggling multiple responsibilities, Paramedic Prep-Pro has been a lifesaver. 
+                                The app's structured approach and comprehensive content have helped me stay ahead in my studies. 
+                                The quizzes and real-life simulations are top-notch, making learning engaging and effective. 
+                                It's truly a must-have for any serious student!"
+                                </p>
+                                <img src={star} alt='star' width={40}/>
+                                <img src={star} alt='star' width={40}/>
+                                <img src={star} alt='star' width={40}/>
+                                <img src={star} alt='star' width={40}/>
+                                <blockquote>Joan Njeri</blockquote>
+                            </div>
+                            <div className='review-img'>
+                                <img src={review3} alt='review' width={290}/>
+                                <p>
+                                "Even after years in the field, Paramedic Prep-Pro continues to be an invaluable resource. 
+                                The app's up-to-date information and practical skills assessments ensure that I'm always at the top of my game. 
+                                The convenience of learning on-the-go fits perfectly with my demanding schedule. 
+                                This app is an essential tool for both aspiring and veteran paramedics."
+                                </p>
+                                <img src={star} alt='star' width={40}/>
+                                <img src={star} alt='star' width={40}/>
+                                <img src={star} alt='star' width={40}/>
+                                <img src={star} alt='star' width={40}/>
+                                <img src={star} alt='star' width={40}/>
+
+                                <blockquote>Hasaan Juma</blockquote>
+                            </div>
+                        </div>
+                    </section>
                     <div className='mentors'>
                         <div className='mentor-avatars'>
                                 <img src={hero1} alt='mentor1' />
@@ -85,8 +139,6 @@ const Home = () => {
                                 <img src={hero3} alt='mentor5' />
                         </div>
                     </div>
-                    {/* <div className='logo'><img src={logo3} alt='' /></div>
-                    <div className='tagline-2'><h3>WE HELP ACHIEVE THE <span className='highlight'>BIGGEST</span> GOALS</h3></div> */}
         </>
     )
 };
