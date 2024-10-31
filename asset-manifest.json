@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final-project-alxSe/static/css/main.fe9314d4.css",
-    "main.js": "/final-project-alxSe/static/js/main.a71c0635.js",
+    "main.css": "/final-project-alxSe/static/css/main.967ab9e2.css",
+    "main.js": "/final-project-alxSe/static/js/main.5cef9f21.js",
     "static/js/453.51037b1e.chunk.js": "/final-project-alxSe/static/js/453.51037b1e.chunk.js",
     "static/media/acs.png": "/final-project-alxSe/static/media/acs.defcceb7198e827b5fb8.png",
     "static/media/af.jpg": "/final-project-alxSe/static/media/af.749f3129f0596b98124f.jpg",
@@ -11,6 +11,7 @@
     "static/media/pharma.jpg": "/final-project-alxSe/static/media/pharma.22e194e024d7b0c05666.jpg",
     "static/media/logo3.jpg": "/final-project-alxSe/static/media/logo3.cd7130a816594a9978fa.jpg",
     "static/media/aortic.png": "/final-project-alxSe/static/media/aortic.d41fbabbd00c58cd7044.png",
+    "static/media/staricon.png": "/final-project-alxSe/static/media/staricon.3417df165aeb02779fd6.png",
     "static/media/explainerh.jpg": "/final-project-alxSe/static/media/explainerh.41b7e23ac5a5d26c8a0d.jpg",
     "static/media/hero2.jpg": "/final-project-alxSe/static/media/hero2.852d7175f0674fcd8619.jpg",
     "static/media/hero3.jpg": "/final-project-alxSe/static/media/hero3.278450524678b0afab40.jpg",
@@ -19,6 +20,9 @@
     "static/media/team2.jpg": "/final-project-alxSe/static/media/team2.130077a4bba6b608c78b.jpg",
     "static/media/hero1.jpg": "/final-project-alxSe/static/media/hero1.85e31e53025e0cfd6069.jpg",
     "static/media/mentor1.jpg": "/final-project-alxSe/static/media/mentor1.f8dbc9f20278bd20b1ed.jpg",
+    "static/media/review2.png": "/final-project-alxSe/static/media/review2.27981ce267814ff6854a.png",
+    "static/media/review1.png": "/final-project-alxSe/static/media/review1.65e8ecf80b6f846ff18d.png",
+    "static/media/review3.png": "/final-project-alxSe/static/media/review3.7cab4bfbb568e2d387df.png",
     "static/media/student2.jpg": "/final-project-alxSe/static/media/student2.e36b41f518d57f5feb4c.jpg",
     "static/media/bleeding.jpg": "/final-project-alxSe/static/media/bleeding.b23b26f67836f3ecb9d5.jpg",
     "static/media/ca.jpg": "/final-project-alxSe/static/media/ca.9c39e5ff6f0251d669ed.jpg",
@@ -26,16 +30,19 @@
     "static/media/acls.jpg": "/final-project-alxSe/static/media/acls.59c3bb114f630f0c67d6.jpg",
     "static/media/hypertensive.jpg": "/final-project-alxSe/static/media/hypertensive.8b015d3c7ae10a42a36c.jpg",
     "static/media/explainerc.jpg": "/final-project-alxSe/static/media/explainerc.cc01c7adac1684e5e52e.jpg",
+    "static/media/tweet.png": "/final-project-alxSe/static/media/tweet.d74d7cef2155f5a3d688.png",
     "static/media/explainerg.jpg": "/final-project-alxSe/static/media/explainerg.7d8249a91c91177eb3db.jpg",
     "static/media/explainerd.jpg": "/final-project-alxSe/static/media/explainerd.3303ec5585a6121ca667.jpg",
     "static/media/mi.jpg": "/final-project-alxSe/static/media/mi.f7a1324cf22ec43824c0.jpg",
     "static/media/explainerf.jpg": "/final-project-alxSe/static/media/explainerf.a2f01e4cc13c6e6e4696.jpg",
+    "static/media/insta.jpg": "/final-project-alxSe/static/media/insta.1b3ebbe6e7158958e5e5.jpg",
     "static/media/explainerb.jpg": "/final-project-alxSe/static/media/explainerb.a74b7dfc5fd26b17836a.jpg",
     "static/media/explainera.jpg": "/final-project-alxSe/static/media/explainera.ddc08f2010b5b89320b3.jpg",
     "static/media/chf.jpg": "/final-project-alxSe/static/media/chf.3006bff8424f3c4c9bce.jpg",
     "static/media/cardiogenic.jpg": "/final-project-alxSe/static/media/cardiogenic.b14d1de10ff784847316.jpg",
     "static/media/explainere.jpg": "/final-project-alxSe/static/media/explainere.569e5c8fb2bb17e7accf.jpg",
     "static/media/explainer7.jpg": "/final-project-alxSe/static/media/explainer7.87ae220363864b00c987.jpg",
+    "static/media/git.jpg": "/final-project-alxSe/static/media/git.786a83d9bcaa34181439.jpg",
     "static/media/pe.jpg": "/final-project-alxSe/static/media/pe.d8ae277517c13dd3ddc3.jpg",
     "static/media/explainer6.jpg": "/final-project-alxSe/static/media/explainer6.6cc7d47a03b4c9b0173d.jpg",
     "static/media/cpr.jpg": "/final-project-alxSe/static/media/cpr.8dd8b3e211b8773eb4d3.jpg",
@@ -44,15 +51,16 @@
     "static/media/explainer2.jpg": "/final-project-alxSe/static/media/explainer2.aff5bae321a4575f053a.jpg",
     "static/media/patientasessment.jpg": "/final-project-alxSe/static/media/patientasessment.c8c9224bc91701784492.jpg",
     "static/media/explainer3.jpg": "/final-project-alxSe/static/media/explainer3.688c5d69945ee4a99054.jpg",
+    "static/media/fb.jpg": "/final-project-alxSe/static/media/fb.c74d29e028bf2d1f1195.jpg",
     "static/media/explainer4.jpg": "/final-project-alxSe/static/media/explainer4.4fa2776c8c275d64cf5b.jpg",
     "static/media/explainer5.jpg": "/final-project-alxSe/static/media/explainer5.ac41e327e70282d55fa6.jpg",
     "index.html": "/final-project-alxSe/index.html",
-    "main.fe9314d4.css.map": "/final-project-alxSe/static/css/main.fe9314d4.css.map",
-    "main.a71c0635.js.map": "/final-project-alxSe/static/js/main.a71c0635.js.map",
+    "main.967ab9e2.css.map": "/final-project-alxSe/static/css/main.967ab9e2.css.map",
+    "main.5cef9f21.js.map": "/final-project-alxSe/static/js/main.5cef9f21.js.map",
     "453.51037b1e.chunk.js.map": "/final-project-alxSe/static/js/453.51037b1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe9314d4.css",
-    "static/js/main.a71c0635.js"
+    "static/css/main.967ab9e2.css",
+    "static/js/main.5cef9f21.js"
   ]
 }
