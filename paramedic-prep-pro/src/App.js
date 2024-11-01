@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './Assets/styles/styles.css';
+import './App.css'
 import logo3 from './Assets/images/logo3.jpg'
 import NavBar from './Components/NavigationBar/NavBar'; 
 import Home from './Components/Home/Home';

@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import explaoiner5 from '../../Assets/images/explainere.jpg';
 import explaoiner6 from '../../Assets/images/explainerf.jpg';
 import explaoiner7 from '../../Assets/images/explainerg.jpg';
@@ -10,6 +11,10 @@ import explaoiner3 from '../../Assets/images/explainerc.jpg';
 import explaoiner4 from '../../Assets/images/explainerd.jpg';
 
 const CardiacQuiz = () => {
+    const navigate = useNavigate();
+    const handleBackToTopics = () => {
+        navigate('/topics');
+    };
 
     const ptQuestions = [
         {
@@ -257,6 +262,8 @@ const CardiacQuiz = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
     const [quizComplete, setQuizComplete] = useState(false);
+    const [viewAnswers, setViewAnswers] = useState(false);
+
 
     const handleAnswer = (optionIndex) => {
         if (optionIndex === ptQuestions[currentQuestion].answer) {
@@ -269,15 +276,29 @@ const CardiacQuiz = () => {
         }
       };
 
-    //   useEffect(() => {
-    //     if (quizComplete) {
-    //         const timer = setTimeout(() => {
-    //             window.location.reload(); // Refresh the page
-    //         }, 5000); // 5 seconds delay
+      const handleViewAnswers = () => {
+        setViewAnswers(true);
+    };
 
-    //         return () => clearTimeout(timer); // Cleanup on component unmount
-    //     }
-    // }, [quizComplete]);
+    if (quizComplete && viewAnswers) {
+        return (
+            <>
+            <h1>Quiz Complete! Here are the answers:</h1>
+            <button className="loginbuttons" onClick={handleBackToTopics}>Back to Topics</button>
+            <div className="each-quiz-items">
+                    {ptQuestions.map((question, index) => (
+                        <div key={index} className="each-quiz-item">
+                            <h1>Question {index + 1}</h1>
+                            <h2>{question.question}</h2>
+                            <h3><strong>Answer: </strong>{question.answer}</h3>
+                            <img src={question.explainer} alt={`Explanation for ${index + 1}`} className="explainer" />
+                        </div>
+                    ))}
+            </div>
+            </>
+        );
+    }
+
 
       if (quizComplete) {
         return (
@@ -286,7 +307,7 @@ const CardiacQuiz = () => {
                     <h1>Quiz Complete!</h1>
                     <img src={explaoiner5} alt="Quiz complete" />
                     <h2>Your score is: {score} out of {ptQuestions.length}</h2>
-                    <button className="loginbuttons">View Answers</button>
+                    <button className="loginbuttons" onClick={handleViewAnswers}>View Answers</button>
                     <p>Refresh Page and Give it Another try :)</p>
                 </div>
             </>

@@ -21,6 +21,9 @@ const Home = () => {
     const handleStartLearning = () => {
         navigate('/topics')
     }
+    const handleSeeMore = () => {
+        navigate('/topics')
+    }
 
     return (
         <>
@@ -53,6 +56,7 @@ const Home = () => {
                                     Whether you're preparing for exams or honing your emergency response skills, you'll find up-to-date protocols, tips from seasoned paramedics, and content tailored to your learning style. 
                                     Stay ahead with Paramedic Prep-Pro Resources—your go-to destination for comprehensive, real-world paramedic education.
                                 </p>
+                                <div><button className='loginbuttons'onClick={handleSeeMore}>See More!</button></div>
                             </div>
                         </div>
                     </section>

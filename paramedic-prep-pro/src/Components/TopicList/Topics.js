@@ -116,7 +116,7 @@ const Topics = () => {
                             </div> 
                             <h2>{item.title}</h2>
                             <p>{item.description}</p>
-                            <button className="topic-button" onClick={() => handleStartLearning(item.title)}>Start Learning</button>
+                            <button className="loginbuttons" onClick={() => handleStartLearning(item.title)}>Start Learning</button>
                         </div>
                      ))}
                 </div>
@@ -133,7 +133,7 @@ const StartQuiz = () => {
     return (
         <>
             <div className="">
-                <button className='search-button' onClick={handleStartQuiz}>
+                <button className='loginbuttons' onClick={handleStartQuiz}>
                     <span>Take a Quiz</span>
                 </button>
             </div>

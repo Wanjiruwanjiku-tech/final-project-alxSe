@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
-}
+/* Base styles */
+@import url('./Assets/styles/styles.css'); 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Media queries for different screen sizes */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .homepage-container { 
+    flex-direction: column; 
+    border-bottom: none; 
+    border-radius: 10px; 
+  }
+
+  .hero-section {
+    height: auto;
+    padding: 2rem;
+    margin: 1rem;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .web-intro {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+  }
+
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .books-grid {
+    grid-template-columns: 1fr;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* For screens larger than 768px */
+@media (min-width: 769px) {
+  .homepage-container {
+    flex-direction: row;
   }
-  to {
-    transform: rotate(360deg);
+
+  .hero-section {
+    height: 100vh;
+  }
+
+  .hero-text {
+    font-size: 3rem;
+  }
+
+  .web-intro {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .resources-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .books-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

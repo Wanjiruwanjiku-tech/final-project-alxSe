@@ -212,7 +212,8 @@ h5 {
     padding: 20px;
     background: transparent;
     box-shadow: 0px, 4px, 8px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(135deg, #09cfa4 50%, #0ceeb5 50%);
+    background: linear-gradient(45deg, #aca9a9 30%, #ffa653 90%);
+    /* background: linear-gradient(135deg, #09cfa4 50%, #0ceeb5 50%); */
 }
 
 .logo {
@@ -301,7 +302,7 @@ h5 {
 .emergency-list {
     text-align: center;
     padding: 30px;
-    background-color: #fce5c0;
+    /* background-color: #fce5c0; */
     border-radius: 30px;
     color:  #130c01;
     margin: 1rem;
@@ -331,7 +332,8 @@ h5 {
 
 .emergency-item {
     padding: 10px;
-    background-color: #ffffff;
+    background: linear-gradient(45deg, #f8f8f8 90%, #f7de02 90%);
+    /* background-color: #ffffff; */
     border: 2px solid black;
     border-radius: 30px;
 }
@@ -681,11 +683,14 @@ h5 {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* background: linear-gradient(135deg, #eaf3f1 50%, #eff3f2 50%); */
+  margin: 2rem;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #1d1d1c 30%, #f0cd09 90%);
 }
 
 .login-box {
-  background: #0bbe56;
+  background: linear-gradient(135deg, #858583 30%, #ffd900 90%);
+  /* background: #ffffff; */
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0, 4px, 6px rgba(0, 0, 0, 0.1);
@@ -696,7 +701,8 @@ h5 {
 .input-container {
   display: flex;
   align-items: center;
-  background: #40ca16;
+  background: linear-gradient(135deg, #1f1f18 30%, #f0d550 90%);
+  /* background: #e4e002; */
   border-radius: 50px;
   margin-bottom: 20px;
   padding: 10px;
@@ -725,6 +731,7 @@ h5 {
 
 .login-input::placeholder {
   color: #dadcdd;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -734,6 +741,7 @@ h5 {
   border-radius: 50px;
   color: #07262e;
   font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 10px;
   width: 100%;
   cursor: pointer;
@@ -783,6 +791,7 @@ h5 {
   box-shadow: wheat;
   border-radius: 30px;
   padding: 30px;
+  background: linear-gradient(45deg, #f8f8f8 90%, #f7de02 90%);
 }
 
 .loginbuttons {
@@ -811,7 +820,7 @@ h5 {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  background: #fff;
+  background: #fff; 
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -900,7 +909,7 @@ blockquote {
 
 /* FOOTER */
 .footer {
-  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  background: linear-gradient(45deg, #181717 30%, #a04f04 90%);
   color: white;
   padding: 2rem 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
