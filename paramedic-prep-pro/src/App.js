@@ -19,6 +19,14 @@ import PharmaQuiz from './Components/Quiz/PharmaQuiz';
 import PtQuiz from './Components/Quiz/PtAssQuiz';
 import Footer from './Components/Footer/Footer';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
+import AirWay from './Components/Airway/Airway';
+import Introduction from './Components/Airway/Intro';
+import BasicAdjuncts from './Components/Airway/Basics';
+import Advanced from './Components/Airway/Advanced';
+import AirwayPharma from './Components/Airway/APharma';
+import AirwaySpecialPopulation from './Components/Airway/SpecialPops';
+import AirwayMonitoringTools from './Components/Airway/MonTools';
+import AirwayComplications from './Components/Airway/AComps';
 
 
 const App = () => {
@@ -40,6 +48,14 @@ const App = () => {
           <Route path='/diabetes-quiz' element={<DiabetesQuiz />}/>
           <Route path='/genpharma-quiz' element={<PharmaQuiz />}/>
           <Route path='/patient-quiz' element={<PtQuiz />}/>
+          <Route path='/airway' element={<AirWay />} />
+          <Route path='/introduction-to-airway-management' element={<Introduction />} />
+          <Route path='/basic-airway-techniques' element={<BasicAdjuncts />} />
+          <Route path='/advanced-airway-techniques' element={<Advanced />} />
+          <Route path='/airway-management-in-special-populations' element={<AirwaySpecialPopulation />}/>
+          <Route path='/pharmacology-related-to-airway-management' element={<AirwayPharma />} />
+          <Route path='/assessment-and-monitoring-tools' element={<AirwayMonitoringTools />} />
+          <Route path='/complications-of-airway-management' element={<AirwayComplications />} />
           <Route path="*" element={<><h2>PAGE NOT FOUND</h2><h2>CAUSE...</h2><h1>I'm Slim Shady, yes I'm the real Shady, All you other slim Shadys are just immitating, SO won't the real Slim Shady please stand up!!</h1></>} />
         </Routes>
         <div>
