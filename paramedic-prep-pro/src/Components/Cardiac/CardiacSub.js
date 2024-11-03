@@ -114,18 +114,15 @@ const CardiacNextPage = () => {
 
     return (
         <>
-            <Link to='/topics'>Back to Topics</Link>
+            <button className='loginbuttons'><Link to='/topics'>Back to Topics</Link></button>
             <div className="cardiac-container">
                 <div className='cardiac-sub-topics'>
                     <h1>Cardiac Emergencies</h1>
                     <h3>ACLS ALGORITHM.</h3>
                     <p>Let's get started..</p>
                     <div>
-                        <button onClick={() => toggleVisibility('acls')} className='nav-btn'>
+                        <button onClick={() => toggleVisibility('acls')} className='loginbuttons'>
                             <span>{VisibleImages.acls ? 'Hide Image' : 'Show ACLS Algorithm'}</span>
-                            <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
-                            <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
-                            </svg>
                         </button>
                         {VisibleImages.acls && (
                             <img src={acls} alt='Endotracheal Intubation' className='advanced-image' />
@@ -169,11 +166,8 @@ const CardiacNextPage = () => {
             </div>
 
             <div>
-                <button className='nav-btn' onClick={handlePrev}>
+                <button className='loginbuttons' onClick={handlePrev}>
                     <span>Previous</span>
-                    <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
-                        <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
-                    </svg>
                 </button>
             </div>
         </>

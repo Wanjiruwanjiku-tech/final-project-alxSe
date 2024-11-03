@@ -225,7 +225,7 @@ const Cardiac = () => {
     ]
     return (
         <>
-        <Link to='/topics'>Back to Topics</Link>
+        <button className='loginbuttons'><Link to='/topics'>Back to Topics</Link></button>
 
         <div className="cardiac-container">
                     <div className='cardiac-sub-topics'>
@@ -259,11 +259,8 @@ const Cardiac = () => {
                     </div>
         </div>
         <div>
-                <button className='nav-btn' onClick={handleNext}>
+                <button className='loginbuttons' onClick={handleNext}>
                     <span>Next Page</span>
-                    <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
-                        <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
-                    </svg>
                 </button>
             </div>
 

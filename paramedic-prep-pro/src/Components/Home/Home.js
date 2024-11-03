@@ -49,7 +49,7 @@ const Home = () => {
                     <h2 className='resources-header'>Explore Our resources</h2>
                     <section>
                         <div className='resources-grid'>
-                            <img src={team1} width={550} alt='fuzzy' />
+                            <div><img src={team1} width={550} alt='fuzzy' /></div>
                             <div className='resources-items'>
                                 <p>
                                     Your journey to becoming an exceptional paramedic starts here! Our Resources Hub offers a wealth of guides, videos, case studies, and expert articles, all designed to give you the in-depth knowledge and practical tools you need in the field. 
