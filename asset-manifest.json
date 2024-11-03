@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final-project-alxSe/static/css/main.2996d817.css",
-    "main.js": "/final-project-alxSe/static/js/main.c5c43b97.js",
+    "main.css": "/final-project-alxSe/static/css/main.d25721a1.css",
+    "main.js": "/final-project-alxSe/static/js/main.738a8976.js",
     "static/js/453.51037b1e.chunk.js": "/final-project-alxSe/static/js/453.51037b1e.chunk.js",
     "static/media/acs.png": "/final-project-alxSe/static/media/acs.defcceb7198e827b5fb8.png",
     "static/media/obese.png": "/final-project-alxSe/static/media/obese.3b7e2fc821284fc41965.png",
@@ -83,12 +83,12 @@
     "static/media/explainer4.jpg": "/final-project-alxSe/static/media/explainer4.4fa2776c8c275d64cf5b.jpg",
     "static/media/explainer5.jpg": "/final-project-alxSe/static/media/explainer5.ac41e327e70282d55fa6.jpg",
     "index.html": "/final-project-alxSe/index.html",
-    "main.2996d817.css.map": "/final-project-alxSe/static/css/main.2996d817.css.map",
-    "main.c5c43b97.js.map": "/final-project-alxSe/static/js/main.c5c43b97.js.map",
+    "main.d25721a1.css.map": "/final-project-alxSe/static/css/main.d25721a1.css.map",
+    "main.738a8976.js.map": "/final-project-alxSe/static/js/main.738a8976.js.map",
     "453.51037b1e.chunk.js.map": "/final-project-alxSe/static/js/453.51037b1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2996d817.css",
-    "static/js/main.c5c43b97.js"
+    "static/css/main.d25721a1.css",
+    "static/js/main.738a8976.js"
   ]
 }
