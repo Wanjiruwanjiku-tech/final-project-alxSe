@@ -264,7 +264,7 @@ h5 {
     background: linear-gradient(45deg, #aca9a9 30%, #ffa653 90%);
     /* background: linear-gradient(135deg, #09cfa4 50%, #0ceeb5 50%); */
 }
-@media screen and (max-width: 914px) {
+@media screen and (max-width: 966px) {
     .navbar {
         flex-direction: column;
     }

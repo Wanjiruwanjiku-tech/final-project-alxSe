@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../../Assets/styles/styles.css';
 import capnography from '../../Assets/images/capnography.jpg';
 import EDD from '../../Assets/images/EDD.avif';
 import oximeter from '../../Assets/images/oximeter.jpg';

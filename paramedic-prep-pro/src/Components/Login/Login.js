@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import userIcon from '../../Assets/images/user.png';
 import passwordIcon from '../../Assets/images/password.png';
+import '../../Assets/styles/styles.css';
 
 const Login = () => {
     const [username, setUsername] = useState('');

@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import '../../Assets/styles/styles.css';
 import explaoiner5 from '../../Assets/images/explainera.jpg';
 import explaoiner6 from '../../Assets/images/explainerb.jpg';
 import explaoiner7 from '../../Assets/images/explainerc.jpg';

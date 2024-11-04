@@ -73,13 +73,13 @@ const Home = () => {
                             <h4  className='resources-header'>Start your journey to becoming a Paramedic-Pro.<br/>Get your copy!</h4>
                             <div className='books-grid'>
                                 <div className='each-book'> <img src={logo} alt='logo' width={250}/><h5>Critical Care Book I</h5>
-                                    <button className='search-button'>Get Book</button>
+                                    <button className='loginbuttons'>Get Book</button>
                                 </div>
                                 <div className='each-book'> <img src={logo2} alt='logo' width={250}/><h5>Critical Care Book II</h5>
-                                    <button className='search-button'>Get Book</button>
+                                    <button className='loginbuttons'>Get Book</button>
                                 </div>
-                            <div className='each-book'> <img src={logo} alt='logo' width={250} /><h5>Critical Advanced Airway Management</h5>
-                                    <button className='search-button'>Get Book</button>
+                            <div className='each-book'> <img src={logo} alt='logo' width={250} /><h5>Advanced Airway Management</h5>
+                                    <button className='loginbuttons'>Get Book</button>
                                 </div>
                             </div>
                         </div>

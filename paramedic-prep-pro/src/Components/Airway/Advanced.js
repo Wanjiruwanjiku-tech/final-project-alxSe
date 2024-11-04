@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import '../../Assets/styles/styles.css';
 import ETT from '../../Assets/images/ETT.jpg';
 import CRIC from '../../Assets/images/cricothyrotomy.png';
 import RSI from '../../Assets/images/RSI.jpg';

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import '../../Assets/styles/styles.css';
 import facial from '../../Assets/images/facial.jpg';
 import geriatric from '../../Assets/images/geriatric.webp';
 import neuro from '../../Assets/images/neuro.jpg';

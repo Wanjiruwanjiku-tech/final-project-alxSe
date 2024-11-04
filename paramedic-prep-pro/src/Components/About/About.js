@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../Assets/images/logo.jpg';
-// import logo3 from '../../Assets/images/logo3.jpg';
+import founder from '../../Assets/images/ME.png';
 import '../../Assets/styles/styles.css';
 import team1 from '../../Assets/images/team1.jpg';
 import team2 from '../../Assets/images/team2.jpg';
@@ -42,6 +42,30 @@ const AboutUs = () => {
                                 service and work. Our Team is experienced 
                                 and foccussed to <span className='highlight'>Prep</span> with
                                 You.
+                            </p>
+                        </div>
+
+                        <h1 className='tagline-2'>Meet Our Founder</h1>
+                        <div className='web-intro'>
+                            
+                            <img className='web-intro-grid' src={founder} alt='founder' style={{ width: '350px' }} />
+                            <p className='web-intro-grid'>
+                            My name is <span className='highlight'>Natalie Wanjiru Wanjiku</span>, and I am the proud founder of Paramedic Prep-Pro. As a dedicated Paramedic and Software Engineer, 
+                            I have witnessed firsthand the critical need for comprehensive, accessible, and effective paramedic training.
+                            </p>
+
+                            <p className='web-intro-grid'>
+                                <h2 className='tagline-2'>Our Mission</h2>
+                            Paramedic Prep-Pro was born out of my passion for saving lives and my commitment to <span className='highlight'>leveraging technology to enhance medical education</span>. 
+                            Our mission is to empower aspiring paramedics and healthcare professionals with the knowledge and skills they need to excel in their field. 
+                            Through innovative learning tools, practical simulations, 
+                            and community support, we strive to make quality paramedic training available to <span className='highlight'>everyone, everywhere.</span>
+                            </p>
+
+                            <p className='web-intro-grid'>
+                                <h2 className='tagline-2'>Our Vision</h2>
+                            At Paramedic Prep-Pro, we believe that every life matters and that well-prepared paramedics can make a difference in critical moments. 
+                            Join us on this journey to elevate emergency medical education and improve patient care worldwide.
                             </p>
                         </div>
                 </div>

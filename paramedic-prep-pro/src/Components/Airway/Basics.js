@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import '../../Assets/styles/styles.css';
 import htcl from '../../Assets/images/head-tilt-chin-lift.jpg';
 import jwt from '../../Assets/images/jaw-thrust.png';
 import suction from '../../Assets/images/suctioning.jpg';

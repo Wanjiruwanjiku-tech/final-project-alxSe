@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import '../../Assets/styles/styles.css';
 import explainer1 from '../../Assets/images/explainer1.jpg';
 import explainer2 from '../../Assets/images/explainer2.jpg';
 import explainer3 from '../../Assets/images/explainer3.jpg';
