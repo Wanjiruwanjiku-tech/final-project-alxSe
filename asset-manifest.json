@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final-project-alxSe/static/css/main.d25721a1.css",
-    "main.js": "/final-project-alxSe/static/js/main.738a8976.js",
+    "main.css": "/final-project-alxSe/static/css/main.cdf3347b.css",
+    "main.js": "/final-project-alxSe/static/js/main.a2c84e2b.js",
     "static/js/453.51037b1e.chunk.js": "/final-project-alxSe/static/js/453.51037b1e.chunk.js",
     "static/media/acs.png": "/final-project-alxSe/static/media/acs.defcceb7198e827b5fb8.png",
     "static/media/obese.png": "/final-project-alxSe/static/media/obese.3b7e2fc821284fc41965.png",
@@ -28,6 +28,7 @@
     "static/media/neuro.jpg": "/final-project-alxSe/static/media/neuro.55e9198053c24e1f8376.jpg",
     "static/media/review3.png": "/final-project-alxSe/static/media/review3.7cab4bfbb568e2d387df.png",
     "static/media/Tracheostomy.jpg": "/final-project-alxSe/static/media/Tracheostomy.9c8d31fb088cb72df73b.jpg",
+    "static/media/ME.png": "/final-project-alxSe/static/media/ME.8b2d6e21e6a40dc98c38.png",
     "static/media/cricothyrotomy.png": "/final-project-alxSe/static/media/cricothyrotomy.1399accabe772f93d4fd.png",
     "static/media/student2.jpg": "/final-project-alxSe/static/media/student2.e36b41f518d57f5feb4c.jpg",
     "static/media/bleeding.jpg": "/final-project-alxSe/static/media/bleeding.b23b26f67836f3ecb9d5.jpg",
@@ -83,12 +84,12 @@
     "static/media/explainer4.jpg": "/final-project-alxSe/static/media/explainer4.4fa2776c8c275d64cf5b.jpg",
     "static/media/explainer5.jpg": "/final-project-alxSe/static/media/explainer5.ac41e327e70282d55fa6.jpg",
     "index.html": "/final-project-alxSe/index.html",
-    "main.d25721a1.css.map": "/final-project-alxSe/static/css/main.d25721a1.css.map",
-    "main.738a8976.js.map": "/final-project-alxSe/static/js/main.738a8976.js.map",
+    "main.cdf3347b.css.map": "/final-project-alxSe/static/css/main.cdf3347b.css.map",
+    "main.a2c84e2b.js.map": "/final-project-alxSe/static/js/main.a2c84e2b.js.map",
     "453.51037b1e.chunk.js.map": "/final-project-alxSe/static/js/453.51037b1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d25721a1.css",
-    "static/js/main.738a8976.js"
+    "static/css/main.cdf3347b.css",
+    "static/js/main.a2c84e2b.js"
   ]
 }
