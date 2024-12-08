@@ -1773,3 +1773,86 @@ blockquote {
   line-height: 1.6;
 }  
 /* AirWay COMPONENT -end */
+
+.pt-container {
+  background: linear-gradient(45deg, #fffefe 90%, #f7a102 90%);
+  margin: 2rem;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pt-container h1 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.pt-container p {
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.pt-container h3{
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.pt-container h2{
+  color: #141313;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.pt-intro{
+  background: linear-gradient(45deg, #ffffff 90%, #f7de02 90%);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.pt-intro h1 {
+  text-align: center;
+}
+
+.pt-intro ol li{
+  padding: 9px;
+  font-size: 20px;
+  color: rgb(51, 31, 5);
+}
+
+.pt-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin: 2rem;
+}
+
+.each-pt {
+  padding: 10px;
+  border: 1px solid #f0f0ef;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #fffefe 90%, #f7a102 90%);
+}
+
+.each-pt p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.each-pt h1{
+  text-align: center;
+}
+
+.each-pt ol li{
+  padding: 9px;
+  font-size: 20px;
+  color: rgb(51, 31, 5);
+}
+
+.each-pt ul li{
+  padding: 9px;
+  font-size: 20px;
+  color: rgb(51, 31, 5);
+}

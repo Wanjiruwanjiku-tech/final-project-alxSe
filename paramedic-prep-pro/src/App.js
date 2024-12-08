@@ -27,6 +27,7 @@ import AirwayPharma from './Components/Airway/APharma';
 import AirwaySpecialPopulation from './Components/Airway/SpecialPops';
 import AirwayMonitoringTools from './Components/Airway/MonTools';
 import AirwayComplications from './Components/Airway/AComps';
+import PatientAssessment from './Components/PtAssess/PtAssess';
 
 
 const App = () => {
@@ -56,6 +57,7 @@ const App = () => {
           <Route path='/pharmacology-related-to-airway-management' element={<AirwayPharma />} />
           <Route path='/assessment-and-monitoring-tools' element={<AirwayMonitoringTools />} />
           <Route path='/complications-of-airway-management' element={<AirwayComplications />} />
+          <Route path='/patient-assessment' element={<PatientAssessment />} />
           <Route path="*" element={<><h2>PAGE NOT FOUND</h2><h2>CAUSE...</h2><h1>I'm Slim Shady, yes I'm the real Shady, All you other slim Shadys are just immitating, SO won't the real Slim Shady please stand up!!</h1></>} />
         </Routes>
         <div>
